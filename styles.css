@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 *{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Rubik, Times, serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -11,7 +20,10 @@ header {
   font-weight: bold;
   background-color: #06a662;
   background-image: url('public/images/juan.png');
+  padding: 20px;
+  width: 65%;
 }
+
 
 header div img {
   height: 30px;
@@ -27,6 +39,11 @@ header div img {
   color: white;
 }
 
+.description {
+  background-color: white;
+  width: 65%;
+}
+
 .description button{
   background-color: #07a562;
   text-transform: uppercase;
@@ -37,6 +54,35 @@ header div img {
   text-align: center;
 }
 
-.education article {
+.description div {
+  border-top: 1px solid rgba(185, 177, 177, 0.5);
+}
 
+.education h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.education article {
+  border-left: 4px solid #1a75d5;
+  background-color: #fff;
+  width: 26%;
+}
+
+.skills {
+  background-color: #06a662;
+  color: #fcfdfd;
+}
+
+.skills h3 {
+  text-align: center;
+}
+
+.skills article {
+  display: inline-block;
+  width: 30%;
+}
+
+.skills h4 {
+  text-align: center;
 }
