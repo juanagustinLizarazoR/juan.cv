@@ -18,7 +18,7 @@ header div img {
   width: 30px;
 }
 
-.social img {
+.social-media img {
   height: 40px;
   width: 40px;
 }
@@ -27,13 +27,13 @@ header div img {
   color: white;
 }
 
-.description-container button{
+.description button{
   background-color: #07a562;
   text-transform: uppercase;
   color: #fcfdfd
 }
 
-.description-container p {
+.description p {
   text-align: center;
 }
 
