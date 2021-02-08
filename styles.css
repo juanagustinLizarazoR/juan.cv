@@ -1,0 +1,42 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+header {
+  color: #fcfdfd;
+  font-weight: bold;
+  background-color: #06a662;
+  background-image: url('public/images/juan.png');
+}
+
+header div img {
+  height: 30px;
+  width: 30px;
+}
+
+.social img {
+  height: 40px;
+  width: 40px;
+}
+
+.info-container span {
+  color: white;
+}
+
+.description-container button{
+  background-color: #07a562;
+  text-transform: uppercase;
+  color: #fcfdfd
+}
+
+.description-container p {
+  text-align: center;
+}
+
+.education article {
+
+}
